@@ -1,0 +1,94 @@
+\typeout{Capas da opcao padrao para TFG: ago/2016}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     #####     #    ######     #
+%    #     #   # #   #     #   # #
+%    #        #   #  #     #  #   #
+%    #       #     # ######  #     #
+%    #       ####### #       #######
+%    #     # #     # #       #     #
+%     #####  #     # #       #     #
+%
+\def\capa{\thispagestyle{empty}
+\setcounter{page}{0}
+\begin{center}\normalsize
+\sffamily UNIVERSIDADE FEDERAL DA BAHIA \\*[2mm]
+INSTITUTO DE GEOCI\^ENCIAS\\*[2mm]
+\raisebox{0in}[0pt][0pt]{\makebox[0pt][l]{\hspace*{-1.5cm}\includegraphics[height=1in]{logo/logo-ufba}}}%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Produz a marca da ANP/FINEP ou da PETROBRAS
+\ifnum\c@anpcounter=1%
+   \raisebox{-2.5cm}[0pt][0pt]{\makebox[0pt][l]{\hspace*{-1.5cm}\includegraphics[height=1.8cm]{prh08}}}%
+\else\ifnum\c@petrocounter=1%
+   \raisebox{-2.5cm}[0pt][0pt]{\makebox[0pt][l]{\hspace*{-1.5cm}\includegraphics[height=1.8cm]{prh08}}}%
+\fi
+\fi
+\makebox[13cm][c]{CURSO  DE GRADUA\c{C}\~AO EM GEOF\'ISICA}%
+\ifnum\c@anpcounter=1%
+\raisebox{-22.5cm}[0pt][0pt]{\makebox[0pt][r]{\includegraphics[height=1.5cm]{logo_finep}\hspace*{-1.5cm}}}%
+\raisebox{-24cm}[0pt][0pt]{\makebox[0pt][r]{\includegraphics[height=1.2cm]{LogoPRHANP7cm}\hspace*{-1.5cm}}}%
+\else\ifnum\c@petrocounter=1%
+\raisebox{-24cm}[0pt][0pt]{\makebox[0pt][r]{\includegraphics[height=1.5cm]{petrobras-marca}\hspace*{-1.5cm}}}%
+\fi
+\fi
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vfill
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\large\sf
+GEO213 -- TRABALHO DE GRADUA\c{C}\~AO\\[15mm]
+\Huge\sc{\THESISTITLE}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vfill
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\large\sf
+\@AUTHOR
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vfill
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\sf SALVADOR -- BAHIA\\
+\sf\@mesaprovacao
+\end{center}\clearpage
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%    ######  #######  #####  ####### #######
+%    #     # #     # #     #    #    #     #
+%    #     # #     # #          #    #     #
+%    ######  #     #  #####     #    #     #
+%    #   #   #     #       #    #    #     #
+%    #    #  #     # #     #    #    #     #
+%    #     # #######  #####     #    #######
+%    
+\def\titlepage{
+\begin{center}
+\thispagestyle{empty}
+\baselineskip=1.3\baselineskip%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{\bf\thesistitle}\\
+por \\
+{\sc\@author}\\*[2\baselineskip]
+\@orientador
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vfill
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\sc GEO213 -- TRABALHO DE GRADUA\c{C}\~AO\\*[\baselineskip]
+\strut\\
+Departamento de Geof\'\i{}sica\\
+do\\
+Instituto de Geoci\^encias\\
+da\\
+Universidade Federal da Bahia
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vfill
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\@listacomite
+\rule{0pt}{1cm}%
+\hfill Data da aprova\c{c}\~ao:\space\box\@dataaprovacao
+\end{center}
+\clearpage
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -1,0 +1,15 @@
+/pix/
+/sign/
+/logo/
+/plot/
+/*.pdf
+
+**/*.aux
+**/*.bbl
+**/*.blg
+**/*.lof
+**/*.log
+**/*.lot
+**/*.out
+**/*.toc
+**/*.zip

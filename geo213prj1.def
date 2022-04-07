@@ -1,0 +1,110 @@
+\typeout{Capas da opcao projeto: ago/2016}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     #####     #    ######     #
+%    #     #   # #   #     #   # #
+%    #        #   #  #     #  #   #
+%    #       #     # ######  #     #
+%    #       ####### #       #######
+%    #     # #     # #       #     #
+%     #####  #     # #       #     #
+%
+\def\capa{\thispagestyle{empty}
+\setcounter{page}{0}
+% %
+%  _                    
+% | |_ ___  _ __   ___  
+% | __/ _ \| '_ \ / _ \ 
+% | || (_) | |_) | (_) |
+%  \__\___/| .__/ \___/ 
+%          |_|          
+% % 
+\begin{center}\normalsize
+\sffamily UNIVERSIDADE FEDERAL DA BAHIA \\*[2mm]
+INSTITUTO DE GEOCI\^ENCIAS\\*[2mm]
+\raisebox{0in}[0pt][0pt]{\makebox[0pt][l]{\hspace*{-1.5cm}\includegraphics[height=1in]{logo-ufba}}}%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Insere a marca da ANP/FINEP ou da PETROBRAS
+\ifnum\c@anpcounter=1%
+   \raisebox{-2.5cm}[0pt][0pt]{\makebox[0pt][l]{\hspace*{-1.5cm}\includegraphics[height=1.8cm]{prh08}}}%
+\else\ifnum\c@petrocounter=1%
+   \raisebox{-2.5cm}[0pt][0pt]{\makebox[0pt][l]{\hspace*{-1.5cm}\includegraphics[height=1.8cm]{prh08}}}%
+\fi
+\fi
+\makebox[13cm][c]{CURSO  DE GRADUA\c{C}\~AO EM GEOF\'ISICA}%
+\ifnum\c@anpcounter=1%
+\raisebox{-22.5cm}[0pt][0pt]{\makebox[0pt][r]{\includegraphics[height=1.5cm]{logo_finep}\hspace*{-1.5cm}}}%
+\raisebox{-24cm}[0pt][0pt]{\makebox[0pt][r]{\includegraphics[height=1.2cm]{LogoPRHANP7cm}\hspace*{-1.5cm}}}%
+\else\ifnum\c@petrocounter=1%
+\raisebox{-24cm}[0pt][0pt]{\makebox[0pt][r]{\includegraphics[height=1.5cm]{petrobras-marca}\hspace*{-1.5cm}}}%
+\fi
+\fi
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vfill
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{\large\sf
+TRABALHO DE GRADUA\c{C}\~AO EM GEOF\'ISICA\\
+RELAT\'ORIO\\[15mm]
+\Huge\sc{\THESISTITLE}
+}
+%\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vfill
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\large\sf
+\@AUTHOR
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vfill
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\sf SALVADOR -- BAHIA\\
+\@mesaprovacao
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{center}\clearpage
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%    ######  #######  #####  ####### #######
+%    #     # #     # #     #    #    #     #
+%    #     # #     # #          #    #     #
+%    ######  #     #  #####     #    #     #
+%    #   #   #     #       #    #    #     #
+%    #    #  #     # #     #    #    #     #
+%    #     # #######  #####     #    #######
+%    
+\def\titlepage{
+\thispagestyle{empty}
+\setcounter{page}{1}
+\begin{center}
+{\Large\sf
+\begin{tabular}{c}
+Universidade Federal da Bahia\\
+Instituto de Geoci\^encias\\
+Departamento de Geof\'\i{}sica
+\end{tabular}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vfill
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+GEO213 -- Trabalho Final de Gradua\c{c}\~ao\\
+RELAT\'ORIO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vfill
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\Large{\sf
+\thesistitle\\
+por \\
+\@author}\\*[2\baselineskip]
+
+{\large	\@orientador}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vfill
+\vfill
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\normalsize\sf\@mesaprovacao
+\end{center}
+ \clearpage
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

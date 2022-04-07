@@ -1,0 +1,28 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                 %
+%                            ABSTRACT                             %
+%                                                                 %
+% Observar os comandos \enghyph no inicio do texto e \porthyph    %
+% fim, utilizados para que a hifenacao em ingles seja utilizada   %
+% no texto do abstract.                                           %
+%                                                                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\capitulo{Abstract}
+% o comando abaixo altera a hifenização para o inglês americano
+\selectlanguage{american}
+In this work a recurring neural network is implemented, as stipulated by Elman, in which finite difference operations are used for the modeling of seismic data by solving the acoustic wave equation. Implementation was carried out in an automatic differentiation environment. The training of such a network is the process of inversion of the physical parameters of the propagated medium. In geophysics, this procedure is called full-waveform inversion and is traditionally implemented through the adjoint method. Automatic differentiation, on the other hand, has the advantage of being readily usable at general inversion process. The reformulation of the inversion problem as the training of a neural network enables new interactions of the method with the universe of machine learning. The inversion implemented via recurrent neural network was tested through the Marmousi model and the SGD, Moment and Adam, common to neural network training  methods, were used enabling quite satisfactory results when compared to the true model. As only a handful of materials were found to introduce neural networks and tie them to acoustic modeling processes in Portuguese, a primary objective of this work is to serve as didactic material that sums up these topics for future studies.
+
+% o comando abaixo altera a hifenização para o português brasileiro
+% e é muito importante.
+\selectlanguage{brazil}
+
+% Uma alternativa é a seguinte estrutura com abre e fecha chaves 
+% para delimitar a validade da seleção de língua.
+% 
+% {
+% \selectlanguage{english}
+% texto em inglês...
+% 
+% }
+% 

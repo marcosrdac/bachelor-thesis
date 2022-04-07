@@ -1,0 +1,156 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\typeout{Classe Monografia Graduacao em Geofisica: ago/2004}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\assinatura}{}
+
+\newcommand{\sen}{\mathop{\rm sen}\nolimits}
+\newcommand{\arcsen}{\mathop{\rm arcsen}\nolimits}
+\newcommand{\senh}{\mathop{\rm senh}\nolimits}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PARAGRAPHING
+% parametros de formação: margens, parágrafos, etc.
+\parskip 0pt plus 1pt              % Extra vertical space between paragraphs.
+%\parskip .5\baselineskip            % Extra vertical space between paragraphs.
+\parindent=5ex
+\oddsidemargin 0in \evensidemargin 0in
+\marginparwidth 40pt \marginparsep 10pt
+\topmargin -.48in 
+\headsep .375in        
+\textheight 9.5in      
+\textwidth 6.5in  
+%
+\renewcommand{\topfraction}{1}
+\renewcommand{\bottomfraction}{1}
+\renewcommand{\textfraction}{0}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Macro para fazer os campos das assinaturas seguidos dos nomes
+% dos componentes da banca examinadora.
+%
+\newcount\@comitenum\@comitenum=0
+%
+\def\comissao#1{%
+\ifnum\@comitenum=0\global\newbox\@comite\fi%
+\begingroup\baselineskip=.833cm\global\setbox\@comite=\vbox{
+\unvbox\@comite\prevdepth=0pt\hbox{#1\strut}}%
+\global\advance\@comitenum by 1\endgroup}
+%
+\def\@listacomite{\begingroup\baselineskip=.833cm%
+\newdimen\@comitewidth\@comitewidth=\textwidth%
+\advance\@comitewidth by-\wd\@comite%
+\newbox\@comiterule%
+%\setbox\@comiterule=\vbox{\hbox{\strut}}%
+\loop\ifnum \@comitenum > 0\global\advance\@comitenum by-1%
+\setbox\@comiterule=\vbox{\unvbox\@comiterule\prevdepth=0pt%
+\hbox to\@comitewidth{\strut\hrulefill\quad}}\repeat%
+\setbox\@comite=\vbox{\hbox to \wd\@comite%
+{\strut\hss Comiss\~ao Examinadora\hss}\unvbox\@comite}
+\hbox{\box\@comiterule\box\@comite}\endgroup}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\author#1{\gdef\@author{#1}\gdef\authorname{#1}}
+\def\AUTHOR#1{\gdef\@AUTHOR{#1}}
+\def\orientador#1{\gdef\@orientador{#1}\gdef\Orientador{#1}}
+\def\previousdegrees#1{\gdef\@previousdegrees{#1}}
+\def\degreetitle#1{\gdef\@degreetitle{#1}}
+\def\degreetitletype#1{\gdef\@degreetitletype{#1}}
+\def\department#1{\gdef\@department{#1}}
+\def\signaturelines#1{\gdef\@signaturelines{#1}}
+\def\copyrightyear#1{\gdef\@copyrightyear{#1}}
+\def\submitdate#1{\gdef\@submitdate{#1}}
+\def\@submitdate{\number\the\year}
+
+\newcount\sig
+\newcount\sigmin \sigmin=2
+\newcount\sigmax \sigmax=7
+
+\def\signatures#1{\sig=0
+  \loop\ifnum\sig<#1 \advance\sig by 1
+        { \begin{minipage}{4in}
+        % \par
+         \vspace{.25in}
+         \hbox to 4in{\dotfill}
+         \end{minipage}}
+\endgraf\repeat}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Definições dos comandos \preface e \introduction
+
+\def\capitulo#1{%
+    \typeout{#1}
+    \chapter*{#1 \@mkboth{}{}}
+    \addcontentsline{toc}{chapter}{#1}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Macros para armazenamento das data de aprovacao e colacao de grau
+%
+\newbox\@dataaprovacao
+\setbox\@dataaprovacao=\hbox to 4cm{\hfill}
+\def\dataaprovacao#1{\global\setbox\@dataaprovacao=\hbox{#1}}
+%
+\def\mesaprovacao#1{\gdef\@mesaprovacao{#1}}
+%
+\newbox\@datacolacao
+\setbox\@datacolacao=\hbox to 4cm{\hfill}
+\def\datacolacao#1{\global\setbox\@datacolacao=\hbox{#1}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% APPENDIX
+%
+% The \appendix command must do the following:
+%    -- reset the chapter counter to zero
+%    -- set \@chapapp to Appendix (for messages)
+%    -- redefine the chapter counter to produce appendix numbers
+%    -- reset the section counter to zero
+%    -- redefine the \chapter command if appendix titles and headings are
+%       to look different from chapter titles and headings.
+\newcounter{@appendixflag}
+\setcounter{@appendixflag}{0}
+\def\appendix{\par
+  \ifnum \value{@appendixflag}=0 
+  \setcounter{chapter}{0}      %\setcounter{section}{0}
+  \global\def\@appendixflag{1}\fi
+  \addtocounter{@appendixflag}{1}
+  \def\@chapapp{Ap\^endice}
+   \setcounter{figure}{0}
+   \setcounter{table}{0}
+   \setcounter{equation}{0}
+  \def\thechapter{\Alph{chapter}}
+   \cleardoublepage      % Starts new page.
+   \thispagestyle{plain}
+   \global\def\@chapapptype{apendice}  % Tipo para ser usado no toc
+   \global\@topnum\z@        % Prevents figures from going at top of page.
+   \@afterindentfalse        % Suppresses indent in first paragraph.  Change
+%   \@afterindenttrue        % Suppresses indent in first paragraph.  Change
+   \secdef\@chapter\@schapter}   % to \@afterindenttrue to have indent.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ANNEX
+%
+\def\@annexflag{0} 
+\def\annex{\par
+  \ifnum \@annexflag=0 
+  \setcounter{chapter}{0}\setcounter{section}{0}
+  \global\def\@annexflag{1} \fi
+  \def\@chapapp{Anexo}
+   \setcounter{figure}{0}
+   \setcounter{table}{0}
+   \setcounter{equation}{0}
+  \def\thechapter{\Roman{chapter}}
+   \cleardoublepage      % Starts new page.
+   \thispagestyle{plain}
+   \global\def\@chapapptype{anexo}  % Tipo para ser usado no toc
+   \global\@topnum\z@        % Prevents figures from going at top of page.
+   \@afterindentfalse        % Suppresses indent in first paragraph.  Change
+%   \@afterindenttrue        % Suppresses indent in first paragraph.  Change
+   \secdef\@chapter\@schapter}   % to \@afterindenttrue to have indent.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\fancyhead{}
+\fancyhead[LE,RO]{\thepage}
+%\fancyhead[LO,RE]{\thechapter}
+\fancyfoot[C]{}
+\pagestyle{fancy}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Como o uso do pacote caption
+\captionsetup{margin=10mm,font=small}

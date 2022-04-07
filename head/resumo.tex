@@ -1,0 +1,9 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                 %
+%                            RESUMO                               %
+%                                                                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+\capitulo{Resumo}
+
+Neste trabalho é implementada uma rede neural recorrente, como estipulada por Elman, em cujo interior são utilizadas operações de diferenças finitas para a modelagem de dados sísmicos pela solução da equação da onda acústica. A implementação foi realizada num ambiente de diferenciação automática. O treinamento de tal rede é o processo de inversão dos parâmetros físicos do meio propagado. Na Geofísica, este procedimento é chamado de inversão de forma completa da onda, sendo tradicionalmente implementado por meio do método adjunto. A diferenciação automática, por outro lado, tem por vantagem ser prontamente utilizável em inversões quaisquer. A reformulação desta inversão como o treinamento de uma rede neural possibilita novas interações do método com o universo do aprendizado de máquina. A inversão implementada via rede neural recorrente é testada através do modelo Marmousi e os métodos SGD, Momento e Adam, comuns ao treinamento de redes neurais, são utilizados possibilitando a obtenção de resultados bastante satisfatórios, quando comparadas ao modelo verdadeiro. Como ainda é difícil encontrar materiais em português que introduzam as redes neurais e as amarrem aos processos de modelagem acústica, um objetivo primordial deste trabalho é servir como material didático, que resume estes tópicos para estudos futuros.
