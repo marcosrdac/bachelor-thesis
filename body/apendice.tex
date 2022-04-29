@@ -63,7 +63,7 @@
 
   \noindent onde $\boldsymbol{S}$ é a matriz do termo fonte.
 
-  A diferenciação parcial do custo em relação ao campo de pressão do tempo discreto $t$ na equação \ref{e:parcial_custo_wrt_velocidade} pode ser destrinchada em três fatores pela regra da cadeia reversa (grafo na Figura \ref{f:diferenciando_custo_3_nos}). Isto porque a modelagem por diferenças finitas de segunda ordem no tempo implica a propagação de um novo instante de pressão depender de outros dois dois instantes passados. Desta forma, o custo devido à pressão em um instante $t$ depende não só dele, mas dos outros dois instantes futuros que dependem dele, o que num gráfico de diferenciação automática significa que um mesmo nó de pressão é encontrado por três setas. Matematicamente, isto é descrito na tem-se a equação (\ref{e:parcial_custo_wrt_pressao_t_em_v})
+  A diferenciação parcial do custo em relação ao campo de pressão do tempo discreto $t$ na equação \ref{e:parcial_custo_wrt_velocidade} pode ser destrinchada em três fatores pela regra da cadeia reversa (grafo na Figura \ref{f:diferenciando_custo_3_nos}). Isto porque a modelagem por diferenças finitas de segunda ordem no tempo implica a propagação de um novo instante de pressão depender de outros dois dois instantes passados. Desta forma, o custo devido à pressão em um instante $t$ depende não só dele, mas dos outros dois instantes futuros que dependem dele, o que num gráfico de diferenciação automática significa que um mesmo nó de pressão é encontrado por três setas.
 
   \begin{figure}
     \begin{center}
@@ -218,7 +218,7 @@
     \boldsymbol{\ddot{\hat{P}}}_{t-1}
   \end{equation}
 
-  A equação (\ref{e:parcial_custo_wrt_velocidade_propagacao_reversa_final}) é exatamente a discretização da solução para o gradiente da função custo do erro quadrático dada pelo método adjunto: a função $f$ está propagando o resíduo $e_t$ reversamente no tempo --- a extrapolação vai do tempo $t+2$ para $t+1$ para sem seguida produzir $t$ --- a partir da posição do receptor, $\vec{r}_r$. O resultado desta operação é o campo adjunto do método adjunto, $\lambda$, que é multiplicado pela segunda derivada no tempo do campo modelado. Este resultado para uma única fonte é estendido a mais receptores somando suas contribuições na função custo, e a mais fontes, ao realizar a modelagem direta com mais fontes \shortcite{sun2019deep}.
+  A equação (\ref{e:parcial_custo_wrt_velocidade_propagacao_reversa_final}) é exatamente a discretização da solução para o gradiente da função custo do erro quadrático dada pelo método adjunto: a função $f$ está propagando o resíduo $e_t$ reversamente no tempo --- a extrapolação vai do tempo $t+2$ para $t+1$ para em seguida produzir $t$ --- a partir da posição do receptor, $\vec{r}_r$. O resultado desta operação é o campo adjunto, $\lambda$, que é multiplicado pela segunda derivada no tempo do campo modelado. Este resultado para uma única fonte é estendido a mais receptores somando suas contribuições na função custo, e a mais fontes, ao realizar a modelagem direta com mais fontes \shortcite{sun2019deep}.
 
 
 \appendix{Receita para o treinamento estocástico de um modelo supervisionado} \label{a:guia_treinamento}
