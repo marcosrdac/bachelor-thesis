@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="474.51526mm"
+   height="214.25241mm"
+   viewBox="0 0 474.51526 214.25241"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
+   sodipodi:docname="remocao_onda_direta.svg"
+   inkscape:export-filename="/home/marcosrdac/dox/y/aca/bft/modelo_meu_2/pix/remocao_onda_direta.png"
+   inkscape:export-xdpi="300.76001"
+   inkscape:export-ydpi="300.76001"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.38484848"
+     inkscape:cx="1039.3701"
+     inkscape:cy="262.44095"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-257.35507,-53.152406)">
+    <image
+       width="109.71388"
+       height="185.56111"
+       preserveAspectRatio="none"
+       style="image-rendering:optimizeSpeed"
+       xlink:href="../plot/sis_wo_dw/dw.png"
+       id="image33"
+       x="433.67239"
+       y="81.843704" />
+    <image
+       width="109.36111"
+       height="185.56111"
+       preserveAspectRatio="none"
+       style="image-rendering:optimizeSpeed"
+       xlink:href="../plot/sis_wo_dw/rw.png"
+       id="image45"
+       x="622.50922"
+       y="81.843704" />
+    <image
+       width="109.36111"
+       height="185.56111"
+       preserveAspectRatio="none"
+       style="image-rendering:optimizeSpeed"
+       xlink:href="../plot/sis_wo_dw/total.png"
+       id="image57"
+       x="257.35507"
+       y="81.843704" />
+    <text
+       xml:space="preserve"
+       style="font-size:38.1px;line-height:0;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="566.98596"
+       y="186.54912"
+       id="text1449"><tspan
+         sodipodi:role="line"
+         id="tspan1447"
+         style="font-weight:normal;font-size:38.1px;stroke-width:0.264583"
+         x="566.98596"
+         y="186.54912">=</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:38.1px;line-height:0;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="392.28778"
+       y="185.06084"
+       id="text9013"><tspan
+         sodipodi:role="line"
+         id="tspan9011"
+         style="font-weight:normal;font-size:38.1px;stroke-width:0.264583"
+         x="392.28778"
+         y="185.06084">-</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:17.1979px;line-height:0;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="299.4437"
+       y="66.201981"
+       id="text11369"><tspan
+         sodipodi:role="line"
+         id="tspan11367"
+         style="stroke-width:0.264583"
+         x="299.4437"
+         y="66.201981">(a)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:17.1979px;line-height:0;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="475.92062"
+       y="66.201981"
+       id="text18039"><tspan
+         sodipodi:role="line"
+         id="tspan18037"
+         style="stroke-width:0.264583"
+         x="475.92062"
+         y="66.201981">(b)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:17.1979px;line-height:0;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="664.47607"
+       y="66.201981"
+       id="text19055"><tspan
+         sodipodi:role="line"
+         id="tspan19053"
+         style="stroke-width:0.264583"
+         x="664.47607"
+         y="66.201981">(c)</tspan></text>
+  </g>
+</svg>

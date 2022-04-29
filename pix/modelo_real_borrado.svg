@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="191.32666mm"
+   height="60.189465mm"
+   viewBox="0 0 191.32666 60.189465"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
+   sodipodi:docname="modelo_real_borrado.svg"
+   inkscape:export-filename="/home/marcosrdac/dox/y/aca/bft/modelo_meu_2/pix/modelo_real_borrado.pdf"
+   inkscape:export-xdpi="300.76001"
+   inkscape:export-ydpi="300.76001"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.0190018"
+     inkscape:cx="175.6621"
+     inkscape:cy="114.81824"
+     inkscape:current-layer="layer1"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-midpoints="true"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true" />
+  <defs
+     id="defs2">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath951">
+      <rect
+         style="opacity:0.495509;fill:#ab0000;fill-opacity:1;fill-rule:evenodd;stroke-width:0.999998;stroke-linejoin:round;stop-color:#000000"
+         id="rect953"
+         width="191.32666"
+         height="60.189476"
+         x="282.95117"
+         y="66.705765" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1220">
+      <rect
+         style="opacity:0.495509;fill:#b11313;fill-rule:evenodd;stroke-width:0.999998;stroke-linejoin:round;stop-color:#000000"
+         id="rect1222"
+         width="95.66333"
+         height="60.189465"
+         x="282.95117"
+         y="66.705772" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1224">
+      <rect
+         style="opacity:0.495509;fill:#b11313;fill-rule:evenodd;stroke-width:0.999998;stroke-linejoin:round;stop-color:#000000"
+         id="rect1226"
+         width="95.66333"
+         height="60.189465"
+         x="378.6145"
+         y="66.705765" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-286.31893,-61.02949)">
+    <image
+       width="203.2"
+       height="127"
+       preserveAspectRatio="none"
+       style="image-rendering:optimizeSpeed"
+       xlink:href="../../../../../../pro/0/lrn/numerics/ann/tf/fwirnn/modelo_real_borrado.png"
+       id="image867"
+       x="280.05634"
+       y="63.771416"
+       clip-path="url(#clipPath1224)"
+       inkscape:export-filename="/home/marcosrdac/dox/y/aca/bft/modelo_meu_2/pix/image867.png"
+       inkscape:export-xdpi="300.76001"
+       inkscape:export-ydpi="300.76001"
+       transform="translate(-92.295569,-5.6762738)" />
+    <g
+       id="g1233"
+       transform="translate(108.02872,-23.780304)">
+      <image
+         width="203.2"
+         height="127"
+         preserveAspectRatio="none"
+         style="image-rendering:optimizeSpeed"
+         xlink:href="../../../../../../pro/0/lrn/numerics/ann/tf/fwirnn/modelo_real_borrado.png"
+         id="image1218"
+         x="280.05634"
+         y="63.771416"
+         clip-path="url(#clipPath1220)"
+         inkscape:export-filename="/home/marcosrdac/dox/y/aca/bft/modelo_meu_2/pix/image867.png"
+         inkscape:export-xdpi="300.76001"
+         inkscape:export-ydpi="300.76001"
+         transform="translate(-8.9976291,18.104023)" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:1;stroke-linejoin:round;stop-color:#000000"
+         id="rect9189"
+         width="5.4407883"
+         height="4.2541132"
+         x="315.69705"
+         y="86.231956" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.31254px;line-height:0;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="316.16537"
+         y="89.08712"
+         id="text2189"><tspan
+           sodipodi:role="line"
+           id="tspan2187"
+           style="font-style:italic;stroke-width:0.264583"
+           x="316.16537"
+           y="89.08712">v<tspan
+   style="font-style:italic;font-size:2.80315px;baseline-shift:sub;stroke-width:0.264583"
+   id="tspan5429">0</tspan></tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:5.29167px;line-height:0;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="286.57071"
+       y="65.857094"
+       id="text2491"><tspan
+         sodipodi:role="line"
+         id="tspan2489"
+         style="font-size:5.29167px;stroke-width:0.264583"
+         x="286.57071"
+         y="65.857094">(A)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.29167px;line-height:0;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="382.42328"
+       y="65.857094"
+       id="text2491-6"><tspan
+         sodipodi:role="line"
+         id="tspan2489-7"
+         style="font-size:5.29167px;stroke-width:0.264583"
+         x="382.42328"
+         y="65.857094">(B)</tspan></text>
+  </g>
+</svg>

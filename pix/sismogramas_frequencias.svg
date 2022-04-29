@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="199.58656mm"
+   height="111.02351mm"
+   viewBox="0 0 199.58656 111.02351"
+   version="1.1"
+   id="svg14027"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20, custom)"
+   sodipodi:docname="sismogramas_frequencias.svg"
+   inkscape:export-filename="/home/marcosrdac/dox/y/aca/bft/tex/pix/sismogramas_frequencias.png"
+   inkscape:export-xdpi="300.76001"
+   inkscape:export-ydpi="300.76001"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview14029"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.8604587"
+     inkscape:cx="326.80113"
+     inkscape:cy="355.28873"
+     inkscape:current-layer="layer1"
+     inkscape:snap-bbox="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-global="true" />
+  <defs
+     id="defs14024">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath943">
+      <rect
+         style="opacity:0.339887;fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke-width:0.999998;stroke-linejoin:round;stop-color:#000000"
+         id="rect945"
+         width="66.528854"
+         height="111.02351"
+         x="290.98792"
+         y="-25.633381" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath961">
+      <rect
+         style="opacity:0.339887;fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke-width:0.999998;stroke-linejoin:round;stop-color:#000000"
+         id="rect963"
+         width="66.528854"
+         height="111.02351"
+         x="281.46051"
+         y="103.96591" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1219">
+      <rect
+         style="opacity:0.339887;fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke-width:0.999998;stroke-linejoin:round;stop-color:#000000"
+         id="rect1221"
+         width="66.528854"
+         height="111.02351"
+         x="279.76785"
+         y="273.97342" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-290.98792,25.633377)">
+    <image
+       width="203.2"
+       height="127"
+       preserveAspectRatio="none"
+       style="image-rendering:optimizeSpeed"
+       xlink:href="../plot/seis_plots/o=momentum_learning_rate=1e+06_momentum=0.9_f=2.667_e=1_b=10_s=1_i=11_l=0.6226076483726501.png"
+       id="image14075"
+       x="222.30614"
+       y="-41.609863"
+       clip-path="url(#clipPath943)" />
+    <image
+       width="203.2"
+       height="127"
+       preserveAspectRatio="none"
+       style="image-rendering:optimizeSpeed"
+       xlink:href="../plot/seis_plots/o=momentum_learning_rate=1e+06_momentum=0.9_f=5.333_e=1_b=16_s=1_i=11_l=0.9955129623413086.png"
+       id="image14087"
+       x="212.77873"
+       y="87.989433"
+       clip-path="url(#clipPath961)"
+       transform="translate(76.056259,-129.59929)" />
+    <image
+       width="203.2"
+       height="127"
+       preserveAspectRatio="none"
+       style="image-rendering:optimizeSpeed"
+       xlink:href="../plot/seis_plots/o=momentum_learning_rate=1e+06_momentum=0.9_f=8_e=6_b=11_s=1_i=11_l=0.4898456931114197.png"
+       id="image14099"
+       x="211.43228"
+       y="257.99692"
+       clip-path="url(#clipPath1219)"
+       transform="translate(144.27777,-299.60679)" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.499999;stroke-linejoin:round;stop-color:#000000"
+       id="rect37"
+       width="66.52887"
+       height="4.452137"
+       x="290.98792"
+       y="-25.633381" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.43958px;line-height:0;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="326.01508"
+       y="-21.893211"
+       id="text8592"><tspan
+         sodipodi:role="line"
+         id="tspan8590"
+         style="font-size:3.43958px;stroke-width:0.264583"
+         x="326.01508"
+         y="-21.893211">Traço</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.499999;stroke-linejoin:round;stop-color:#000000"
+       id="rect37-3"
+       width="66.52887"
+       height="4.452137"
+       x="357.51675"
+       y="-25.633379" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.43958px;line-height:0;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="392.54391"
+       y="-21.893209"
+       id="text8592-6"><tspan
+         sodipodi:role="line"
+         id="tspan8590-7"
+         style="font-size:3.43958px;stroke-width:0.264583"
+         x="392.54391"
+         y="-21.893209">Traço</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.499999;stroke-linejoin:round;stop-color:#000000"
+       id="rect37-5"
+       width="66.52887"
+       height="4.452137"
+       x="424.04559"
+       y="-25.633371" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.43958px;line-height:0;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+       x="459.07275"
+       y="-21.893202"
+       id="text8592-3"><tspan
+         sodipodi:role="line"
+         id="tspan8590-5"
+         style="font-size:3.43958px;stroke-width:0.264583"
+         x="459.07275"
+         y="-21.893202">Traço</tspan></text>
+  </g>
+</svg>
