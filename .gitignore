@@ -2,7 +2,7 @@
 /sign/
 /logo/
 /plot/
-/*.pdf
+#/*.pdf
 
 **/*.aux
 **/*.bbl
